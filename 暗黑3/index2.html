@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jquery-3.1.1.js"></script>
+    <style type="text/css">
+       *{
+        padding:0;
+        margin:0;
+       }
+       a{
+        text-decoration: none;
+       }
+       li{
+        list-style: none;
+       }
+       body{
+        background-color: #12110f;
+       }
+       .anhei{
+            font-size: 16px;
+            padding: 30px 50px;
+       }
+       .anhei .anhei-name a{
+            color: #BFEFFF;
+       }
+       .anhei .anhei-xinwen a{
+            color: #d4d44d;
+       }
+       .new-nav{
+        width: 80%;
+        margin: 0 auto;
+       }
+       .shouye-list li {
+            float: left;
+            width: 30% ;
+            height: 300px;
+            margin-left:20px;
+            border: 2px solid rgb(220, 216, 206);
+            background-color: #151410;
+        }
+        .shouye-list li a {
+            position: relative;
+            display: block;
+            height: 100%;
+        }
+        .shouye-list li a img {
+            background-size: cover;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 90%;
+            height: 140px;
+            overflow: hidden;
+        }
+        .shouye-list li a h3 {
+            position: absolute;
+            top: 160px;
+            left: 20px;
+            font-size: 20px;
+            color: #fddd9b;
+        }
+        .shouye-list li a .desc {
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            font-size: 16px;
+            color: dimgray;
+        }
+        .shouye-list li a .price-wrap {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 12px;
+        }
+        .shouye-list li a .price-wrap .sum {
+            color: #BFEFFF;
+        }
+        .shouye-list li a .price-wrap .sum .sum-i{
+            font-size: 2px;
+            font-weight: bolder;
+        }
+        .shouye-list li a .price-wrap .time {
+            color: #BFEFFF;
+            font-size: 12px;
+            margin-left: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="anhei">
+        <span class="anhei-name"><a href="#">暗黑破坏神III></a></span><span class="anhei-xinwen"><a>新闻中心</a></span>
+    </div>
+    <div class="new-nav">
+            <script src="js/artTemplate.js"></script>
+            <script id="xinwenTemp" type="text/html">
+            <li><a href="{{article-meta-comment-href}}">
+                <img src="{{img}}">
+                <h3>{{article-title}}</h3>
+                <div class="desc">{{article-summary}}</div>
+                <div class="price-wrap">
+                    <span class="sum">
+                        <span class="sum-i">{{commentNum}}</span>
+                    </span>
+                    <span class="time">{{time}}</span>
+                </div>
+            </a></li>
+        </script>
+    </div>
+</body>
+</html>
+
+     <script>
+        $.ajax({
+            url: "data/articlelist.json",
+            method: "get",
+            dataType: "json",
+            success: function (datas) {
+                var $ul = $('<ul class="shouye-list" />');
+                $.each(datas.articlelist, function (i, val) {
+                    var $li = $(template('xinwenTemp', val));
+                    $li.appendTo($ul);
+                });
+                $ul.appendTo('.new-nav');
+            }
+        });
+    </script>

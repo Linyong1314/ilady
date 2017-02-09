@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jquery-3.1.1.js"></script>
+    <style type="text/css">
+       *{
+        padding:0;
+        margin:0;
+       }
+       a{
+        text-decoration: none;
+       }
+       li{
+        list-style: none;
+       }
+       body{
+        background-color: #12110f;
+       }
+       .new-nav{
+        width: 100%;
+        margin: 20px auto;
+       }
+       .shouye-list li {
+            width: 100% ;
+            height: 140px;
+            border-bottom: 1px solid rgb(220, 216, 206);
+        }
+        .shouye-list li a {
+            position: relative;
+            display: block;
+            height: 100%;
+        }
+        .shouye-list li a img {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 200px;
+            height: 100px;
+        }
+        .shouye-list li a h3 {
+            position: absolute;
+            top: 18px;
+            left: 230px;
+            font-size: 15px;
+            color: #fddd9b;
+        }
+        .shouye-list li a .desc {
+            position: absolute;
+            top: 50px;
+            left: 230px;
+            font-size: 12px;
+            color: dimgray;
+        }
+        .shouye-list li a .price-wrap {
+            position: absolute;
+            bottom: 20px;
+            left: 230px;
+            font-size: 12px;
+        }
+        .shouye-list li a .price-wrap .sum {
+            color: #BFEFFF;
+        }
+        .shouye-list li a .price-wrap .sum .sum-i{
+            font-size: 2px;
+            font-weight: bolder;
+        }
+        .shouye-list li a .price-wrap .time {
+            color: #BFEFFF;
+            font-size: 12px;
+            margin-left: 5px;
+
+        }
+        .bon-nav{
+            width: 100%;
+            height: 40px;
+            border-bottom: 1px solid rgb(220, 216, 206);
+            margin-top: 100px;
+            padding-left: 60px;
+            background-color: #1c170f;
+            position: relative;
+        }
+        .bon-nav li{
+            float: left;
+            width: 14%;
+            height: 40px;
+            border: 1px solid #C2C2C2;
+            text-align: center;
+        }
+        .bon-nav li a{
+            color: #fddd9b;
+            line-height: 40px;
+        }
+        .bon-nav ul .no-bor{
+            background-color: #cccccc;
+            border-bottom-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="bon-nav">
+        <ul>
+            <li><a>最新文章</a></li>
+            <li class="no-bor"><a>蓝贴博文</a></li> 
+            <li><a>社区推荐</a></li> 
+            <li><a>官方新闻</a></li>  
+        </ul>
+    </div>
+    <div class="new-nav">
+        <script src="js/artTemplate.js"></script>
+            <script id="shouyeTemp" type="text/html">
+            <li><a href="#">
+                <img src="{{img}}">
+                <h3>{{homeNewsTitle}}</h3>
+                <div class="desc">{{homeNewsIntro}}</div>
+                <div class="price-wrap">
+                    <span class="sum">
+                        <span class="sum-i">{{commentNum}}</span>
+                    </span>
+                    <span class="time">{{time}}</span>
+                </div>
+            </a></li>
+            </script>
+    </div>
+</body>
+</html>
+
+    <script>
+        $.ajax({
+            url: "data/lastedNews1.json",
+            method: "get",
+            dataType: "json",
+            success: function (datas) {
+                var $ul = $('<ul class="shouye-list" />');
+                $.each(datas.newslist, function (i, val) {
+                    var $li = $(template('shouyeTemp', val));
+                    $li.appendTo($ul);
+                });
+                $ul.appendTo('.new-nav');
+            }
+        });
+    </script>    
+

@@ -1,0 +1,58 @@
+{
+  "newslist": [
+    {
+      "href": "http://blizzcon.blizzard.cn/article/Blog/422",
+      "img": "http://blizzcon.nos.netease.com/a/images/2016/10/28/260x130_MC01.jpg",
+      "homeNewsTitle": "“怪人艾尔” 扬科维奇将在2016暴雪嘉年华盛情演出！",
+      "homeNewsIntro": "             准备迎接最受欢迎的流行音乐幽默大师“怪人艾尔” 扬科维奇在暴雪嘉年华上的闭幕式演出吧！购买暴雪嘉年华虚拟门票，足不出户即可观赏到他的精彩演出。         ",
+      "homeNewsCommentHref": "http://blizzcon.blizzard.cn/article/Blog/422#commentsTag",
+      "commentNum": "",
+      "time": "2016-10-28"
+    },
+    {
+      "href": "/article/official/216",
+      "img": "http://diablo3.nos.netease.com/2/zz/201610/14blz260x130.jpg",
+      "homeNewsTitle": "《暗黑破坏神III》@2016暴雪嘉年华",
+      "homeNewsIntro": "             无论是亲自到场，还是购买虚拟门票在家中观看，《暗黑》的粉丝们都将在2016暴雪嘉年华上体验到以下的精彩内容。         ",
+      "homeNewsCommentHref": "/article/official/216#commentsTag",
+      "commentNum": "45",
+      "time": "2016-10-14"
+    },
+    {
+      "href": "http://heroes.blizzard.cn/article/official/5503",
+      "img": "http://heroes.nos.netease.com/2/cms/news/201609/j_09260100260x130.jpg",
+      "homeNewsTitle": "《风暴英雄》黄金国际挑战赛“世俱杯”即将震撼开启",
+      "homeNewsIntro": "             《风暴英雄》最高规格国际挑战赛“世俱杯”即将开战，8支世界顶尖战队将于12月初会师北京水立方总决赛，角逐王者头衔及200万元丰厚奖金。          ",
+      "homeNewsCommentHref": "http://heroes.blizzard.cn/article/official/5503#commentsTag",
+      "commentNum": "",
+      "time": "2016-09-27"
+    },
+    {
+      "href": "/article/official/212",
+      "img": "http://overwatch.nos.netease.com/a/images/2016/9/26/260x130.jpg",
+      "homeNewsTitle": "暴雪娱乐与网易续签在华游戏运营权",
+      "homeNewsIntro": "             2016年9月27日，暴雪娱乐公司和网易公司联合宣布，延续双方在中国大陆业已展开的各项合作。         ",
+      "homeNewsCommentHref": "/article/official/212#commentsTag",
+      "commentNum": "89",
+      "time": "2016-09-27"
+    },
+    {
+      "href": "/article/official/210",
+      "img": "http://diablo3.nos.netease.com/2/zz/201609/19mj260x130.jpg",
+      "homeNewsTitle": "《暗黑破坏神III》麻将套装全球首发",
+      "homeNewsIntro": "             追忆暗黑二十年匠心之作，《暗黑破坏神III》麻将套装现已全球首发上架！         ",
+      "homeNewsCommentHref": "/article/official/210#commentsTag",
+      "commentNum": "272",
+      "time": "2016-09-19"
+    },
+    {
+      "href": "http://blizzcon.blizzard.cn/article/Blog/407",
+      "img": "http://blizzcon.nos.netease.com/a/images/2016/9/16/BC16_VT_Phoenix_Thumbnail_260x130_m02.jpg",
+      "homeNewsTitle": "2016暴雪嘉年华虚拟物品奖励正式公布",
+      "homeNewsIntro": "             了解2016暴雪嘉年华参与者和虚拟门票购买者可以获得的虚拟物品奖励。         ",
+      "homeNewsCommentHref": "http://blizzcon.blizzard.cn/article/Blog/407#commentsTag",
+      "commentNum": "",
+      "time": "2016-09-16"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+.title{
+	height: 44px;
+	background-color: #06171f;
+}
+.title .left-ul{
+	position: absolute;
+	left: 20px;
+}
+.title .left-ul li{
+	padding: 14px;
+	float: left;
+}
+.title .left-ul .img-li{
+	padding: 0;
+}
+.title .left-ul li .left-li-img{
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	background: url("../images/top-left.png") no-repeat;
+	background-position: -4px -4px;
+}
+.title .left-ul li .left-li-img:hover{
+	background: url("../images/top-left.png") no-repeat;
+	background-position: -4px -54px;
+}
+.title .left-ul .game{
+	color: white;
+}
+.xiaojiantou-img{
+	width: 16px;
+	height: 16px;
+	position: relative;
+	top: 3px;
+	display: inline-block;
+	background: url("../images/sprite-16-white.png") no-repeat;
+	background-position: -64px -256px;
+}
+.title .right-ul {
+	position: relative;
+	right: 20px;
+}
+.title .right-ul li{
+	padding: 14px;
+	float: right;
+}
+.wrap{
+	height: 195px;
+	z-index: 2;
+}
+.wrap .bgImg{
+	display: block;
+	height: 195px;
+	background: url("../images/header-bg.jpg") no-repeat;
+}
+.wrap .bgImg span .logo{
+	width: 317px;
+	height: 218px;
+	display: inline-block;
+	background:url("../images/logo.png") no-repeat;
+}
+.wrap .bgImg .fangdajing{
+	width: 31px;
+	height: 30px;
+	position: absolute;
+	top: 164px;
+	right: 32px;
+	z-index: 2;
+	border-top-right-radius:5px; 
+	border-bottom-right-radius:5px; 
+	/*display: inline-block;*/
+}
+.wrap .bgImg .search{
+	width: 337px;
+	height: 30px;
+	position: absolute;
+	top: 160px;
+	right: 30px;
+	border-radius: 5px;
+}
+.wrap .bgImg .img-center{
+	width: 377px;
+	height: 55px;
+	position: absolute;
+	left: 50%;
+	top: 197px;
+	margin-left:-150px; 
+	display: block;
+	background:url("../images/nav-icon.png") no-repeat;
+}
+.wrap .bgImg .img-center .btn{
+	width: 47px;
+	height: 47px;
+	position: relative;
+	left: 164px;
+	bottom: 3px;
+	display: inline-block;
+	background: url("../images/nav-icon-light.png") no-repeat;
+}
+
+
+
+

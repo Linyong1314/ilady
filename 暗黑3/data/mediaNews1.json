@@ -1,0 +1,58 @@
+{
+  "newslist": [
+    {
+      "href": "/article/media/220",
+      "img": "http://diablo3.nos.netease.com/2/zz/201610/13se260x130.jpg",
+      "homeNewsTitle": "《暗黑破坏神Ⅲ》第八赛季社区媒体活动推荐",
+      "homeNewsIntro": "                                 《暗黑破坏神III》第八赛季已经正式开启，凯恩之角和NGA为大家准备了第八赛季开荒系列活动，只要你参加活动，就有机会获得丰厚奖励！                             ",
+      "homeNewsCommentHref": "/article/media/220#commentsTag",
+      "commentNum": "46",
+      "time": "2016-10-25"
+    },
+    {
+      "href": "/article/media/159",
+      "img": "http://diablo3.nos.netease.com/a/images/2016/1/19/12345.png",
+      "homeNewsTitle": "社区推荐：《暗黑破坏神III》2.4.0版本游戏指南",
+      "homeNewsIntro": "                                 在2.4.0版本中，\"黑德里格的礼物\"可以让玩家们在到达70级之后迅速地获得一整套的套装。如何在新版本快速提升自己的角色？凯恩之角为我们准备了2.4.0版本的游戏指南，希望对大家有所帮助。                             ",
+      "homeNewsCommentHref": "/article/media/159#commentsTag",
+      "commentNum": "38",
+      "time": "2016-01-19"
+    },
+    {
+      "href": "/article/media/158",
+      "img": "http://diablo3.nos.netease.com/2/test/201601/18am.jpg",
+      "homeNewsTitle": "《暗黑破坏神III》2.4版本社区媒体活动推荐",
+      "homeNewsIntro": "                                 《暗黑破坏神III》2.4.0版本已经正式上线！第五赛季也已开启。社区与媒体为大家准备了丰富多彩的活动，参加活动就有机会获得丰厚奖励！                             ",
+      "homeNewsCommentHref": "/article/media/158#commentsTag",
+      "commentNum": "2",
+      "time": "2016-01-18"
+    },
+    {
+      "href": "/article/media/139",
+      "img": "http://diablo3.nos.netease.com/a/images/2015/11/19/260x130.jpg",
+      "homeNewsTitle": "社区推荐：玩家手绘全职业系列头像",
+      "homeNewsIntro": "                                 庇护之地的艺术家们用他们的画笔勾勒出一幅幅精彩的作品，今天我们向大家推荐的是来自凯恩之角玩家卡姆多戰隼的暗黑破坏神3全职业系列头像。                             ",
+      "homeNewsCommentHref": "/article/media/139#commentsTag",
+      "commentNum": "39",
+      "time": "2015-11-19"
+    },
+    {
+      "href": "/article/media/126",
+      "img": "http://diablo3.nos.netease.com/a/images/2015/9/11/260x130改.jpg",
+      "homeNewsTitle": "社区推荐：卡奈魔盒功能介绍与机制详解",
+      "homeNewsIntro": "                                 卡奈魔盒是2.3版本中新加的功能。如何获取卡奈魔盒？它又该怎样使用呢？来自凯恩之角的这篇魔盒指导让你从新手进阶成魔盒达人。                             ",
+      "homeNewsCommentHref": "/article/media/126#commentsTag",
+      "commentNum": "84",
+      "time": "2015-09-11"
+    },
+    {
+      "href": "/article/media/84",
+      "img": "http://diablo3.nos.netease.com/a/images/2015/6/30/630260.jpg",
+      "homeNewsTitle": "社区推荐：找到那些被你忽视的装备",
+      "homeNewsIntro": "                                 NGA社区从装备搭配的方法说起，为大家分析了一下如何发掘自己角色的最大潜力。                             ",
+      "homeNewsCommentHref": "/article/media/84#commentsTag",
+      "commentNum": "89",
+      "time": "2015-06-30"
+    }
+  ]
+}
